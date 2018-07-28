@@ -1,2 +1,2 @@
-# Arquitetura_e_Padroes_de_Projetos_CentralAlarmes
-Código desenvolvido conforme solicitado pela profa Lysianne Couto, para aplicação do padrão de projeto Observer.
+# Projeto CentralAlarmes
+Código desenvolvido conforme solicitado pela professora Lysianne Couto, para aplicação do padrão de projeto Observer.
