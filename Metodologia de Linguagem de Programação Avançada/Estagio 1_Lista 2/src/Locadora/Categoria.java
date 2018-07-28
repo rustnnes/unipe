@@ -1,0 +1,20 @@
+package Locadora;
+
+public enum Categoria {
+	TERROR,
+	SUSPENSE,
+	COMEDIA,
+	THRILLER,
+	ANOS60,
+	ANOS80,
+	FICCAO,
+	DOCUMENTARIO,
+	RELIGIOSO,
+	INFANTIL,
+	ITALIANO,
+	CULT,
+	ACAO,
+	DRAMA,
+	TEEN,
+	AVANTGARDE
+}

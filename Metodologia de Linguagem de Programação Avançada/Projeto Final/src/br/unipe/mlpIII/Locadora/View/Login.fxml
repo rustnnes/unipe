@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="ancPnLogin" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.unipe.mlpIII.Locadora.Controller.Login">
+	<children>
+		<ImageView fitHeight="150.0" fitWidth="200.0" layoutX="17.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="30.0">
+			<image>
+				<Image url="@../../../../../../res/img/key.png" />
+			</image>
+		</ImageView>
+		<Label contentDisplay="CENTER" layoutX="167.0" layoutY="14.0" text="Locadora - Login" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0">
+			<font>
+				<Font name="System Bold" size="25.0" />
+			</font>
+		</Label>
+		<Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" graphicTextGap="10.0" layoutX="227.0" layoutY="73.0" text="Login:" AnchorPane.rightAnchor="30.0">
+			<graphic>
+				<TextField fx:id="txtUsr" prefWidth="200.0" promptText="Login" />
+			</graphic>
+		</Label>
+		<Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" graphicTextGap="10.0" layoutX="225.0" layoutY="100.0" text="Senha:" textAlignment="RIGHT" AnchorPane.rightAnchor="30.0">
+			<graphic>
+				<PasswordField fx:id="txtPwd" prefWidth="200.0" promptText="Senha" />
+			</graphic>
+		</Label>
+		<Button fx:id="btnSair" layoutX="234.0" layoutY="151.0" prefWidth="90.0" text="_Sair" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="140.0" />
+		<Button fx:id="btnEntrar" defaultButton="true" layoutX="313.0" layoutY="151.0" prefWidth="90.0" text="_Entrar" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="30.0" />
+      <Label fx:id="lblMessage" alignment="CENTER" contentDisplay="CENTER" layoutX="270.0" layoutY="132.0" opacity="0.0" prefHeight="17.0" prefWidth="198.0" text="Usuario e/ou senha inválidos." textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+	</children>
+</AnchorPane>
