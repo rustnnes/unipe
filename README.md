@@ -7,3 +7,5 @@ Neste repositório, há respostas a trabalhos universitários, compreendidos ent
 - Metodologia de Linguagem de Programação Avançada
 - Programação Avançada para Web
 - Teoria da Computacao I
+
+Adicionados projetos relativos a desafios executados em projeto de Extensão "Fábrica de Software", para Escritório de Testes.
