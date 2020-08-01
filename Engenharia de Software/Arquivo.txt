@@ -1,4 +1,0 @@
-#primeira linha no Eclipse
-!segunda linha no Eclipse
-$terceira linha no GitHub
-%quarta linha no Eclipse
