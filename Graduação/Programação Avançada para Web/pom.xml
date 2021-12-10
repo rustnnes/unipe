@@ -45,7 +45,7 @@
 		<vJavax-faces>2.2.13</vJavax-faces>
 		<vTomcat>9.0.0.M10</vTomcat>
 		<vPostgres>9.4.1211.jre7</vPostgres>
-		<vLog4J>2.6.2</vLog4J>
+		<vLog4J>2.15.0</vLog4J>
 		<v.jUnit>4.12</v.jUnit>
 		<v.Javax-Servlet-api>3.0.1</v.Javax-Servlet-api>
 	</properties>
