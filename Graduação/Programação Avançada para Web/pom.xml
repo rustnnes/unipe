@@ -36,7 +36,7 @@
 	</repositories>
 	<properties>
 		<vJackson>[2.8.11.1,)</vJackson>
-		<vHibernate>5.2.2.Final</vHibernate>
+		<vHibernate>5.4.24.Final</vHibernate>
 		<vHibernate.annotations>3.5.6-Final</vHibernate.annotations>
 		<vSpring>4.3.1.RELEASE</vSpring>
 		<vPersistence-api>1.0.2</vPersistence-api>
